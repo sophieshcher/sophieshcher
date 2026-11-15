@@ -3,8 +3,8 @@
 # Sofiia Shcherbyna (Софія Щербина)
 ### Applied Physics • Scientific Computing • Embedded Systems & PCB Design
 
-[![Email](https://img.shields.io/badge/Email-s.shcherbyna007%40outlook.com-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white)](mailto:s.shcherbyna007@outlook.com)
-[![Academic Email](https://img.shields.io/badge/KPI-s.shcherbyna.ff41%40kpi.ua-0057B7?style=for-the-badge&logo=academia&logoColor=white)](mailto:s.shcherbyna.ff41@kpi.ua)
+[![Email](https://img.shields.io/badge/Gmail-s0.shcherbyna%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:s0.shcherbyna@gmail.com)
+[![Academic Email](https://img.shields.io/badge/KPI-shcherbyna.sofiia__ff41%40edu.kpi.ua-0057B7?style=for-the-badge&logo=academia&logoColor=white)](mailto:shcherbyna.sofiia_ff41@edu.kpi.ua)
 [![Portfolio Repo](https://img.shields.io/badge/Main_Portfolio-sophieshcher%2Fprojects-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sophieshcher/projects)
 
 </div>
