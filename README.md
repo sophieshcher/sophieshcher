@@ -38,7 +38,17 @@ Physics & Engineering student at **Igor Sikorsky Kyiv Polytechnic Institute (KPI
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3>1. <a href="https://github.com/sophieshcher/projects/tree/main/N-body%20Gravitational%20Simulation">2D N-Body Gravitational Simulation</a></h3>
+      <h3>1. <a href="https://github.com/sophieshcher/cms-dimuon-invariant-mass">CERN CMS Dimuon Invariant Mass (Z → μ⁺μ⁻)</a></h3>
+      <p>High-energy particle physics analysis of real <b>CERN CMS Open Data</b> collision events in <b>C++ (CERN ROOT)</b>. Reconstructs the 4-momentum invariant mass spectrum of opposite-sign muon pairs and extracts the <b>Z⁰ boson</b> pole mass (<code>91.12 ± 0.08 GeV/c²</code>) via a relativistic Breit–Wigner + continuum background fit.</p>
+      <p>
+        <a href="https://github.com/sophieshcher/cms-dimuon-invariant-mass"><b>Standalone Repo</b></a> •
+        <a href="https://github.com/sophieshcher/projects/tree/main/cms-dimuon-invariant-mass"><b>In Portfolio</b></a> •
+        <a href="https://github.com/sophieshcher/cms-dimuon-invariant-mass/blob/main/src/analyze_dimuon.cpp"><b>ROOT C++ Code</b></a> •
+        <a href="https://github.com/sophieshcher/cms-dimuon-invariant-mass/blob/main/results/z_boson_fit.png"><b>Z-Peak Fit Plot</b></a>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>2. <a href="https://github.com/sophieshcher/projects/tree/main/N-body%20Gravitational%20Simulation">2D N-Body Gravitational Simulation</a></h3>
       <p>High-performance C++ astrophysical simulator comparing direct summation <code>O(N²)</code>, multi-threaded <b>OpenMP</b> parallelism, and the hierarchical <b>Barnes-Hut Quadtree</b> <code>O(N log N)</code> algorithm with Symplectic Leapfrog integration (up to <b>78.8× speedup</b> at N = 50,000).</p>
       <p>
         <a href="https://github.com/sophieshcher/projects/blob/main/N-body%20Gravitational%20Simulation/README.md"><b>Documentation & Benchmarks</b></a> •
@@ -47,8 +57,10 @@ Physics & Engineering student at **Igor Sikorsky Kyiv Polytechnic Institute (KPI
         <a href="https://github.com/sophieshcher/projects/tree/main/N-body%20Gravitational%20Simulation/plots"><b>Plots</b></a>
       </p>
     </td>
+  </tr>
+  <tr>
     <td width="50%" valign="top">
-      <h3>2. <a href="https://github.com/sophieshcher/projects/tree/main/proj-module-for-dc-motor">Smart Closed-Loop DC Motor Controller</a></h3>
+      <h3>3. <a href="https://github.com/sophieshcher/projects/tree/main/proj-module-for-dc-motor">Smart Closed-Loop DC Motor Controller</a></h3>
       <p>Industrial/robotics actuator control module (<b>EPS 2026 Case 1.1.3</b>) built around <b>STM32F103C8</b>, <b>DRV8874</b> H-bridge driver with current sensing, <b>AS5600</b> 12-bit contactless magnetic encoder, and <b>TPS54302</b> buck converter with custom CRC-8 UART telemetry.</p>
       <p>
         <a href="https://github.com/sophieshcher/projects/blob/main/proj-module-for-dc-motor/README.md"><b>System Architecture</b></a> •
@@ -57,25 +69,14 @@ Physics & Engineering student at **Igor Sikorsky Kyiv Polytechnic Institute (KPI
         <a href="https://github.com/sophieshcher/projects/blob/main/proj-module-for-dc-motor/%D0%9A%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D0%B0_1.1.3_%D0%A0%D0%BE%D0%B7%D1%80%D0%BE%D0%B1%D0%BA%D0%B0%20%D0%BC%D0%BE%D0%B4%D1%83%D0%BB%D1%8F%20%D0%BA%D0%B5%D1%80%D1%83%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F%20DC-%D0%BC%D0%BE%D1%82%D0%BE%D1%80%D0%BE%D0%BC.pptx.pdf"><b>Presentation</b></a>
       </p>
     </td>
-  </tr>
-  <tr>
     <td width="50%" valign="top">
-      <h3>3. <a href="https://github.com/sophieshcher/projects/tree/main/Decimal-to-Binary%20Decoder">Decimal-to-Binary Hardware Trainer</a></h3>
-      <p>Pocket embedded trainer based on <b>ATmega328P (Arduino)</b> and <b>HD44780 16×2 LCD</b> for real-time 8-bit binary conversion practice with hardware debouncing, random entropy seeding, and LED feedback.</p>
+      <h3>4. <a href="https://github.com/sophieshcher/projects/tree/main/Decimal-to-Binary%20Decoder">Decimal-to-Binary Hardware Trainer</a> & <a href="https://github.com/sophieshcher/projects/tree/main/matlab">MATLAB</a></h3>
+      <p>Pocket embedded trainer based on <b>ATmega328P (Arduino)</b> and <b>HD44780 16×2 LCD</b>, plus interactive <b>MATLAB Live Scripts</b> for RLC circuit transient analysis and signal processing.</p>
       <p>
-        <a href="https://github.com/sophieshcher/projects/blob/main/Decimal-to-Binary%20Decoder/README.md"><b>README</b></a> •
-        <a href="https://github.com/sophieshcher/projects/blob/main/Decimal-to-Binary%20Decoder/decimal_to_binary1.ino"><b>Firmware (.ino)</b></a> •
-        <a href="https://github.com/sophieshcher/projects/blob/main/Decimal-to-Binary%20Decoder/decimal-to-binary.pdf"><b>Schematic (PDF)</b></a> •
-        <a href="https://github.com/sophieshcher/projects/blob/main/Decimal-to-Binary%20Decoder/bom.csv"><b>BOM</b></a>
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>4. <a href="https://github.com/sophieshcher/projects/tree/main/matlab">MATLAB Circuit & Signal Modeling</a></h3>
-      <p>Interactive MATLAB Live Scripts (<code>.mlx</code>) for transient analysis in RLC resonant loops, spectral signal processing, and numerical data visualization.</p>
-      <p>
-        <a href="https://github.com/sophieshcher/projects/blob/main/matlab/proj_rlc_loop.mlx"><b>RLC Loop Simulation</b></a> •
-        <a href="https://github.com/sophieshcher/projects/blob/main/matlab/proj_signal.mlx"><b>Signal Analysis</b></a> •
-        <a href="https://github.com/sophieshcher/matlab"><b>Standalone MATLAB Repo</b></a>
+        <a href="https://github.com/sophieshcher/projects/blob/main/Decimal-to-Binary%20Decoder/README.md"><b>Arduino Trainer</b></a> •
+        <a href="https://github.com/sophieshcher/projects/blob/main/Decimal-to-Binary%20Decoder/decimal-to-binary.pdf"><b>Schematic</b></a> •
+        <a href="https://github.com/sophieshcher/projects/blob/main/matlab/proj_rlc_loop.mlx"><b>RLC Loop (.mlx)</b></a> •
+        <a href="https://github.com/sophieshcher/projects/blob/main/matlab/proj_signal.mlx"><b>Signal Analysis</b></a>
       </p>
     </td>
   </tr>
